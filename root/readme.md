@@ -6,8 +6,8 @@ This workshop aims to compare 3 common load balancing algorithms, highlighting t
 
 ## Rules:
 To distribute traffic across your application servers you will need a load balancer. In this lab you will create different types of Application Load Balancer.  
-1. A server type can be lazy, eager, or normal  
-1. Time spent on a task can be lazy, eager, or normal
+1. A server type can be lazy, fast, or normal  
+1. Time spent on a task can be lazy, fast, or normal
 
 ## Implementation
 ### use case 1 (example) -  Round Robin Load Balancer  
@@ -26,3 +26,6 @@ You should implement UseCase3LoadBalancer.handleRequest method. Which LoadBalanc
 
 ## Execution
 For each use case, just run "main" method, e.g. for use-case 1, run UseCase1.java -> main
+
+## notes
+1. The ratio of lazy:normal:fast is 3:2:1
