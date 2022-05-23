@@ -20,7 +20,8 @@ You should implement UseCase2LoadBalancer.handleRequest method. Which LoadBalanc
 
 ### use case 3 (yours)
 Taking into account different server types, as well as tasks processing time
-You should implement UseCase3LoadBalancer.handleRequest method. Which LoadBalancer algorithm is appropriate in this case? How long does it take to complete all the tasks?
+You should implement UseCase3LoadBalancer.handleRequest method. Which LoadBalancer algorithm is appropriate in this case? How long does it take to complete all the tasks?  
+You can use Server.getLoad() method for getting the waiting tasks count
 
 
 ## Execution
